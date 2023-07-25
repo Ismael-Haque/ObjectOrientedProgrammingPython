@@ -35,9 +35,7 @@ class Atm:
             print("Bye!")
 
     def create_pin(self):
-        temp_pin = input("Create your pin: ")
-
-        self.pin = temp_pin
+        self.pin = input("Create your pin: ")
         print("Pin created successfully!")
     
     def deposit(self):
